@@ -1,0 +1,1404 @@
+{
+    "conformsTo": "https://project-open-data.cio.gov/v1.1/schema",
+    "describedBy": "https://project-open-data.cio.gov/v1.1/schema/catalog.json",
+    "@context": "https://project-open-data.cio.gov/v1.1/schema/catalog.jsonld",
+    "@type": "dcat:Catalog",
+    "dataset": [
+        {
+            "@type": "dcat:Dataset",
+            "title": "American Time Use Survey",
+            "description": "The American Time Use Survey (ATUS) provides nationally representative estimates of how, where, and with whom Americans spend their time, and is the only federal survey providing data on the full range of nonmarket activities, from childcare to volunteering.\r\n\r\nFor more information visit https://www.bls.gov/tus/",
+            "modified": "2009-06-19",
+            "accessLevel": "public",
+            "identifier": "DOL-BLS-218",
+            "issued": "2019-06-19",
+            "landingPage": "https://www.bls.gov/tus/",
+            "license": "https://creativecommons.org/publicdomain/zero/1.0/",
+            "publisher": {
+                "@type": "org:Organization",
+                "name": "Bureau of Labor Statistics",
+                "subOrganizationOf": {
+                    "@type": "org:Organization",
+                    "name": "U.S. Department of Labor"
+                }
+            },
+            "contactPoint": {
+                "@type": "vcard:Contact",
+                "fn": "Amrit Kohli",
+                "hasEmail": "mailto:kohli.amrit@dol.gov"
+            },
+            "distribution": [
+                {
+                    "@type": "dcat:Distribution",
+                    "accessURL": "https://www.bls.gov/tus/data.htm",
+                    "title": "ATUS Micro data page",
+                    "description": "ATUS public use micro data files resources"
+                },
+                {
+                    "@type": "dcat:Distribution",
+                    "mediaType": "text/html",
+                    "title": "ATUS data page",
+                    "description": "ATUS data query tools",
+                    "downloadURL": "https://www.bls.gov/tus/database.htm"
+                }
+            ],
+            "keyword": [
+                "child care",
+                "elder care",
+                "time use",
+                "volunteering"
+            ],
+            "bureauCode": ["012:20"],
+            "programCode": ["012:035"]
+        },
+        {
+            "@type": "dcat:Dataset",
+            "title": "Business Employment Dynamics",
+            "description": "The Business Employment Dynamics (BED) is a set of statistics generated from the Quarterly Census of Employment and Wages (QCEW) program. These quarterly data series consist of gross job gains and gross job losses statistics from 1992 forward. These data help to provide a picture of the dynamic state of the labor market.\r\n\r\nFor more information and data visit: https://www.bls.gov/bed/",
+            "modified": "2019",
+            "accessLevel": "public",
+            "identifier": "DOL-BLS-3115-01",
+            "describedBy": "http://download.bls.gov/pub/time.series/bd/bd.txt",
+            "issued": "2019-10-31",
+            "landingPage": "https://www.bls.gov/bed/",
+            "license": "https://creativecommons.org/publicdomain/zero/1.0/",
+            "publisher": {
+                "@type": "org:Organization",
+                "name": "Bureau of Labor Statistics",
+                "subOrganizationOf": {
+                    "@type": "org:Organization",
+                    "name": "U.S. Department of Labor"
+                }
+            },
+            "contactPoint": {
+                "@type": "vcard:Contact",
+                "fn": "Amrit Kohli",
+                "hasEmail": "mailto:kohli.amrit@bls.gov"
+            },
+            "distribution": [
+                {
+                    "@type": "dcat:Distribution",
+                    "accessURL": "https://www.bls.gov/bdm/data.htm",
+                    "title": "BED data page",
+                    "description": "Business Dynamics data sources",
+                    "describedBy": "https://download.bls.gov/pub/time.series/bd/"
+                }
+            ],
+            "keyword": [
+                "employment",
+                "gross job gains",
+                "gross job losses",
+                "pay",
+                "state",
+                "unemployment insurance",
+                "wages"
+            ],
+            "bureauCode": ["012:20"],
+            "programCode": ["012:031"]
+        },
+        {
+            "@type": "dcat:Dataset",
+            "title": "Consumer Expenditure Survey",
+            "description": "The Consumer Expenditure Surveys (CE) program provides data on expenditures, income, and demographic characteristics of consumers in the United States. The CE program provides these data in tables, LABSTAT database, news releases, reports, and public use microdata files.\r\n\r\nCE data are collected by the Census Bureau for BLS in two surveys, the Interview Survey for major and/or recurring items and the Diary Survey for more minor or frequently purchased items. CE data are primarily used to revise the relative importance of goods and services in the market basket of the Consumer Price Index. The CE is the only Federal household survey to provide information on the complete range of consumers' expenditures and incomes.\r\n\r\nFor more information and data, visit: https://www.bls.gov/cex/",
+            "modified": "2019",
+            "accessLevel": "public",
+            "identifier": "DOL-BLS-3015-01",
+            "describedBy": "https://download.bls.gov/pub/time.series/cx/cx.txt",
+            "issued": "2019-09-10",
+            "landingPage": "https://www.bls.gov/cex/",
+            "license": "https://creativecommons.org/publicdomain/zero/1.0/",
+            "publisher": {
+                "@type": "org:Organization",
+                "name": "Bureau of Labor Statistics",
+                "subOrganizationOf": {
+                    "@type": "org:Organization",
+                    "name": "U.S. Department of Labor"
+                }
+            },
+            "contactPoint": {
+                "@type": "vcard:Contact",
+                "fn": "Amrit Kohli",
+                "hasEmail": "mailto:kohli.amrit@bls.gov"
+            },
+            "distribution": [
+                {
+                    "@type": "dcat:Distribution",
+                    "accessURL": "https://www.bls.gov/cex/data.htm",
+                    "title": "CE data page",
+                    "description": "CE data resources"
+                },
+                {
+                    "@type": "dcat:Distribution",
+                    "accessURL": "https://www.bls.gov/cex/pumd_data.htm",
+                    "title": "CE Public Use micro data files",
+                    "description": "CE public use micro data files in various formats and tables"
+                }
+            ],
+            "keyword": [
+                "buying",
+                "expenditure",
+                "family",
+                "income",
+                "pay",
+                "spending"
+            ],
+            "bureauCode": ["012:20"],
+            "programCode": ["012:032"]
+        },
+        {
+            "@type": "dcat:Dataset",
+            "title": "Consumer Price Index (CPI)",
+            "description": "The Consumer Price Index (CPI) is a measure of the average change over time in the prices paid by urban consumers for a market basket of consumer goods and services. Indexes are available for the U.S. and various geographic areas. Average price data for select utility, automotive fuel, and food items are also available. Prices for the goods and services used to calculate the CPI are collected in 75 urban areas throughout the country and from about 23,000 retail and service establishments. Data on rents are collected from about 43,000 landlords or tenants.\r\n\r\nMore information and details about the data provided can be found at http://www.bls.gov/cpi",
+            "modified": "2019",
+            "accessLevel": "public",
+            "identifier": "DOL-BLS-104",
+            "issued": "2019-12-11",
+            "landingPage": "http://www.bls.gov/cpi",
+            "license": "http://creativecommons.org/publicdomain/zero/1.0/",
+            "publisher": {
+                "@type": "org:Organization",
+                "name": "Bureau of Labor Statistics",
+                "subOrganizationOf": {
+                    "@type": "org:Organization",
+                    "name": "U.S. Department of Labor"
+                }
+            },
+            "contactPoint": {
+                "@type": "vcard:Contact",
+                "fn": "Amrit Kohli",
+                "hasEmail": "mailto:kohli.amrit@dol.gov"
+            },
+            "distribution": [
+                {
+                    "@type": "dcat:Distribution",
+                    "accessURL": "https://www.bls.gov/cpi/data.htm",
+                    "title": "Consumer Price Index Data page",
+                    "description": "CPI Data sources"
+                },
+                {
+                    "@type": "dcat:Distribution",
+                    "accessURL": "https://download.bls.gov/pub/time.series/ap/",
+                    "title": "Average Price Data",
+                    "description": "CPI Average Price data tab separated files \r\n\r\nThe Bureau of Labor Statistics (BLS) also publishes average retail prices for select utility, automotive fuel, and food items. Although average prices are calculated from the price observations collected for the CPI, they serve a different purpose.  The CPI measures price change while average prices provide estimates of price levels. Specifically, average prices are estimates of the average price paid by the consumer for a good or service.\r\n\r\nAt the U.S. level, the BLS publishes approximately 70 average prices for food items, 6 for utility gas (natural gas) and electricity, and 5 for automotive fuels. If the sample size is sufficient, all average prices are also published at the four major geographic regions--Northeast, Midwest, South, and West."
+                },
+                {
+                    "@type": "dcat:Distribution",
+                    "accessURL": "https://download.bls.gov/pub/time.series/cu/",
+                    "title": "CPI - U",
+                    "description": "CPI -- All Urban Consumer data in tab separated files \r\n\r\nThe CPI represents changes in prices of all goods and services purchased for consumption by urban households. User fees (such as water and sewer service) and sales and excise taxes paid by the consumer are also included. Income taxes and investment items (like stocks, bonds, and life insurance) are not included.\r\nThe CPI-U includes expenditures by urban wage earners and clerical workers, professional, managerial, and technical workers, the self-employed, short-term workers, the unemployed, retirees and others not in the labor force."
+                },
+                {
+                    "@type": "dcat:Distribution",
+                    "accessURL": "https://download.bls.gov/pub/time.series/su/",
+                    "title": "Chained CPI",
+                    "description": "The Chained Consumer Price Index for All Urban Consumers, was introduced with the release of July data in August 2002. Designated the C-CPI-U, the index supplements the existing Consumer Price Indexes already produced by the BLS: the CPI for All Urban Consumers (CPI-U) and the CPI for Urban Wage Earners and Clerical Workers (CPI-W). The C-CPI-U employs a Tornqvist formula and utilizes expenditure data in adjacent time periods in order to reflect the effect of any substitution that consumers make across item categories in response to changes in relative prices. The new measure is designed to be a closer approximation to a \"cost-of-living\" index than the present measures. The use of expenditure data for both a base period and the current period in order to average price change across item categories distinguishes the C-CPI-U from the existing CPI measures, which use only a single expenditure base period to compute the price change over time."
+                }
+            ],
+            "keyword": [
+                "CPI",
+                "CPI index",
+                "Consumer Prices",
+                "Inflation"
+            ],
+            "bureauCode": ["012:20"],
+            "programCode": ["012:032"]
+        },
+        {
+            "@type": "dcat:Dataset",
+            "title": "Current Employment Statistics - Employment, Hours, and Earnings - State and Metro Area",
+            "description": "The Current Employment Statistics (CES) program produces detailed industry estimates of employment, hours, and earnings of workers on nonfarm payrolls. CES State and Metro Area produces data for all 50 States, the District of Columbia, Puerto Rico, the Virgin Islands, and about 450 metropolitan areas and divisions. Each month, CES surveys approximately 142,000 businesses and government agencies, representing 689,000 individual worksites.\r\n\r\nFor more information and data, visit: https://www.bls.gov/sae/",
+            "modified": "2019",
+            "accessLevel": "public",
+            "identifier": "DOL-BLS-3005-01",
+            "describedBy": "http://download.bls.gov/pub/time.series/sm/sm.txt",
+            "landingPage": "https://www.bls.gov/sae/",
+            "license": "https://creativecommons.org/publicdomain/zero/1.0/",
+            "publisher": {
+                "@type": "org:Organization",
+                "name": "Bureau of Labor Statistics",
+                "subOrganizationOf": {
+                    "@type": "org:Organization",
+                    "name": "U.S. Department of Labor"
+                }
+            },
+            "contactPoint": {
+                "@type": "vcard:Contact",
+                "fn": "Amrit Kohli",
+                "hasEmail": "mailto:kohli.amrit@bls.gov"
+            },
+            "distribution": [
+                {
+                    "@type": "dcat:Distribution",
+                    "accessURL": "https://www.bls.gov/sae/data/home.htm",
+                    "title": "State&Area (SAE) data page",
+                    "description": "CES State&Area data resources"
+                }
+            ],
+            "keyword": [
+                "earnings",
+                "employment",
+                "hours",
+                "industry",
+                "pay"
+            ],
+            "bureauCode": ["012:20"],
+            "programCode": ["012:031"]
+        },
+        {
+            "@type": "dcat:Dataset",
+            "title": "Current Population Survey (CPS) - Weekly and Hourly Earnings",
+            "description": "The Current Population Survey (CPS) is a monthly survey of households conducted by the Bureau of Census for the Bureau of Labor Statistics. The earnings data are collected from one-fourth of the CPS total sample of approximately 60,000 households. Data measures usual hourly and weekly earnings of wage and salary workers. All self-employed persons are excluded, regardless of whether their businesses are incorporated. Data represent earnings before taxes and other deductions and include any overtime pay, commissions, or tips usually received. Earnings data are available for all workers, by age, race, Hispanic or Latino ethnicity, sex, occupation, usual full- or part-time status, educational attainment, and other characteristics. Data are published quarterly. \r\n\r\nMore information and details about the data provided can be found at http://www.bls.gov/cps/earnings.htm",
+            "modified": "2019",
+            "accessLevel": "public",
+            "identifier": "DOL-BLS-155",
+            "issued": "2019-10-16",
+            "landingPage": "https://www.bls.gov/cps/earnings.htm",
+            "license": "https://creativecommons.org/publicdomain/zero/1.0/",
+            "publisher": {
+                "@type": "org:Organization",
+                "name": "U.S. Department of Labor Bureau of Labor Statistics"
+            },
+            "accrualPeriodicity": "R/P1M",
+            "contactPoint": {
+                "@type": "vcard:Contact",
+                "fn": "Amrit Kohli",
+                "hasEmail": "mailto:kohli.amrit@dol.gov"
+            },
+            "distribution": [
+                {
+                    "@type": "dcat:Distribution",
+                    "accessURL": "https://www.bls.gov/news.release/wkyeng.htm",
+                    "title": "Usual Weekly Earnings of Wage and Salary Workers News Release"
+                }
+            ],
+            "keyword": [
+                "Earnings",
+                "Earnings by Demographics",
+                "hours at work",
+                "marital",
+                "union"
+            ],
+            "bureauCode": ["012:20"],
+            "programCode": ["012:031"]
+        },
+        {
+            "@type": "dcat:Dataset",
+            "title": "Current Population Survey - Marital and Family Labor Force Statistics",
+            "description": "The marital and family labor force statistics (FM) database from the Current Population Survey reflects data published each year in the news release, \r\nEmployment Characteristics of Families. At the present time, only data for persons are available in the FM database. Person data include employment status by marital status and presence and age of own children. For example, the FM database includes the labor force participation rate of mothers with children under age 6 (series FMUP1378865).",
+            "modified": "2014-02-14",
+            "accessLevel": "public",
+            "identifier": "DOL-BLS-3020-04",
+            "describedBy": "http://download.bls.gov/pub/time.series/fm/fm.txt",
+            "landingPage": "https://www.bls.gov/cps/demographics.htm#families",
+            "license": "https://creativecommons.org/publicdomain/zero/1.0/",
+            "publisher": {
+                "@type": "org:Organization",
+                "name": "Bureau of Labor Statistics",
+                "subOrganizationOf": {
+                    "@type": "org:Organization",
+                    "name": "U.S. Department of Labor"
+                }
+            },
+            "contactPoint": {
+                "@type": "vcard:Contact",
+                "fn": "Amrit Kohli",
+                "hasEmail": "mailto:kohli.amrit@bls.gov"
+            },
+            "distribution": [
+                {
+                    "@type": "dcat:Distribution",
+                    "accessURL": "https://download.bls.gov/pub/time.series/fm",
+                    "title": "CPS Family characteristics data",
+                    "description": "Text (tab separated) files of CPS Family data"
+                },
+                {
+                    "@type": "dcat:Distribution",
+                    "accessURL": "https://www.bls.gov/cps/data.htm",
+                    "format": "HTML",
+                    "title": "CPS data home page",
+                    "description": "Family and Marital characteristics data query tool"
+                }
+            ],
+            "keyword": [
+                "demographic",
+                "earnings",
+                "employment",
+                "family",
+                "hours of work",
+                "marital",
+                "unemployment",
+                "union"
+            ],
+            "bureauCode": ["012:20"],
+            "programCode": ["012:031"]
+        },
+        {
+            "@type": "dcat:Dataset",
+            "title": "Employee Benefits Survey",
+            "description": "National Compensation Survey - Benefits produces comprehensive data on the incidence (the percentage of workers with access to and participation in employer provided benefit plans) and provisions of selected employee benefit plans. The Employee Benefits Survey (EBS) is an annual survey of the incidence and provisions of selected benefits provided by employers. The data are presented as a percentage of employees who participate in a certain benefit, or as an average benefit provision (for example, the average number of paid holidays provided to employees per year). The survey covers paid leave benefits such as holidays and vacations, and person, funeral, jury duty, military, parental, and sick leave; sickness and accident, long-term disability, and life insurance; medical, dental, and vision care plans; defined benefit pension and defined contribution plans; flexible benefits plans; reimbursement accounts; and unpaid parental leave. Also, data are tabulated on the incidence of several other benefits, such as severance pay, child-care assistance, wellness programs, and employee assistance programs.\r\n\r\nFor more information and data visit: https://www.bls.gov/ebs/",
+            "modified": "2019",
+            "accessLevel": "public",
+            "identifier": "DOL-BLS-1075-04",
+            "describedBy": "http://download.bls.gov/pub/time.series/eb/eb.txt",
+            "issued": "2019-09-19",
+            "landingPage": "https://www.bls.gov/ebs/",
+            "license": "https://creativecommons.org/publicdomain/zero/1.0/",
+            "publisher": {
+                "@type": "org:Organization",
+                "name": "Bureau of Labor Statistics",
+                "subOrganizationOf": {
+                    "@type": "org:Organization",
+                    "name": "U.S. Department of Labor"
+                }
+            },
+            "contactPoint": {
+                "@type": "vcard:Contact",
+                "fn": "Amrit Kohli",
+                "hasEmail": "mailto:kohli.amrit@bls.gov"
+            },
+            "distribution": [
+                {
+                    "@type": "dcat:Distribution",
+                    "accessURL": "https://www.bls.gov/ncs/ebs/data.htm",
+                    "title": "EBS data home",
+                    "description": "EBS data resources",
+                    "describedBy": "https://download.bls.gov/pub/time.series/nb/"
+                }
+            ],
+            "keyword": [
+                "Benefits",
+                "Compensation",
+                "Disability Benefits",
+                "Health Insurance",
+                "Pay",
+                "Wages",
+                "earnings"
+            ],
+            "bureauCode": ["012:20"],
+            "programCode": ["012:033"]
+        },
+        {
+            "@type": "dcat:Dataset",
+            "title": "Employer Cost for Employee Compensation",
+            "description": "The Employer Costs for Employee Compensation (ECEC) is a measure of the cost of labor. The compensation series includes wages and salaries plus employer costs for individual employee benefits. Employee benefit costs are calculated as cents-per-hour-worked for individual benefits ranging from employer payments for Social Security to paid time off for holidays. The survey covers all occupations in the civilian economy, which includes the total private economy (excluding farms and households), and the public sector (excluding the Federal government). Statistics are published for the private and public sectors separately, and the data are combined in a measure for the civilian economy.\r\n\r\nFor information and data, visit: https://www.bls.gov/ncs/ect/",
+            "modified": "2019",
+            "accessLevel": "public",
+            "identifier": "DOL-BLS-1075-03",
+            "describedBy": "http://download.bls.gov/pub/time.series/cm/cm.txt",
+            "issued": "2019-12-18",
+            "landingPage": "https://www.bls.gov/ncs/ect/",
+            "license": "https://creativecommons.org/publicdomain/zero/1.0/",
+            "publisher": {
+                "@type": "org:Organization",
+                "name": "Bureau of Labor Statistics",
+                "subOrganizationOf": {
+                    "@type": "org:Organization",
+                    "name": "U.S. Department of Labor"
+                }
+            },
+            "contactPoint": {
+                "@type": "vcard:Contact",
+                "fn": "Amrit Kohli",
+                "hasEmail": "mailto:kohli.amrit@bls.gov"
+            },
+            "distribution": [
+                {
+                    "@type": "dcat:Distribution",
+                    "accessURL": "https://www.bls.gov/ncs/ect/data.htm",
+                    "title": "ECEC data page",
+                    "description": "ECEC data resources"
+                }
+            ],
+            "keyword": [
+                "Benefits",
+                "Compensation",
+                "Employment Cost Index",
+                "Health Insurance",
+                "Pay",
+                "Wages",
+                "earnings"
+            ],
+            "bureauCode": ["012:20"],
+            "programCode": ["012:033"]
+        },
+        {
+            "@type": "dcat:Dataset",
+            "title": "Employment Cost Index",
+            "description": "The Employment Cost Index (ECI) component of the National Compensation Survey (NCS) that measures changes in labor costs. The ECI is a quarterly measure of the change in the cost of labor, free from the influence of employment shifts among occupations and industries. The compensation series includes changes in wages and salaries plus employer costs for employee benefits. The wage and salary series and benefit series provide the change for the two components of compensation. Employee benefit costs are calculated as cost-per-hour-worked for 21 benefits, ranging from employer payments for Social Security to paid time off for holidays.\r\n\r\nFor information and data please visit: https://www.bls.gov/ncs/",
+            "modified": "2019",
+            "accessLevel": "public",
+            "identifier": "DOL-BLS-66",
+            "issued": "2019-10-31",
+            "landingPage": "https://www.bls.gov/ncs/",
+            "license": "https://creativecommons.org/publicdomain/zero/1.0/",
+            "publisher": {
+                "@type": "org:Organization",
+                "name": "Bureau of Labor Statistics",
+                "subOrganizationOf": {
+                    "@type": "org:Organization",
+                    "name": "U.S. Department of Labor"
+                }
+            },
+            "contactPoint": {
+                "@type": "vcard:Contact",
+                "fn": "Amrit Kohli",
+                "hasEmail": "mailto:kohli.amrit@dol.gov"
+            },
+            "distribution": [
+                {
+                    "@type": "dcat:Distribution",
+                    "accessURL": "https://www.bls.gov/ncs/#data",
+                    "title": "ECI data tools",
+                    "description": "NCS related data query tools and files"
+                }
+            ],
+            "keyword": [
+                "ECI",
+                "employment cost",
+                "employment cost index",
+                "labor cost"
+            ],
+            "bureauCode": ["012:20"],
+            "programCode": ["012:033"]
+        },
+        {
+            "@type": "dcat:Dataset",
+            "title": "Employment Projections",
+            "description": "The Employment Projections (EP) program develops information about the labor market for the Nation as a whole for 10 years in the future.\r\n\r\nFor more information visit: https://www.bls.gov/emp/",
+            "modified": "2019",
+            "accessLevel": "public",
+            "identifier": "DOL-BLS-3420-01",
+            "issued": "2019-09-04",
+            "landingPage": "http://www.bls.gov/emp/",
+            "license": "https://creativecommons.org/publicdomain/zero/1.0/",
+            "publisher": {
+                "@type": "org:Organization",
+                "name": "Bureau of Labor Statistics",
+                "subOrganizationOf": {
+                    "@type": "org:Organization",
+                    "name": "U.S. Department of Labor"
+                }
+            },
+            "contactPoint": {
+                "@type": "vcard:Contact",
+                "fn": "Amrit Kohli",
+                "hasEmail": "mailto:kohli.amrit@bls.gov"
+            },
+            "distribution": [
+                {
+                    "@type": "dcat:Distribution",
+                    "accessURL": "https://www.bls.gov/emp/data.htm",
+                    "title": "Occupational Projections data page",
+                    "description": "Employment and Occupational Projections data query tools"
+                },
+                {
+                    "@type": "dcat:Distribution",
+                    "accessURL": "https://www.bls.gov/emp/tables.htm",
+                    "title": "XLS tables of various Projections Data",
+                    "description": "Projections data broken up by Occupation, Industry, Education & Training, Labor Force and Aggregate Economy"
+                }
+            ],
+            "keyword": [
+                "Jobs",
+                "employment",
+                "occupation",
+                "projection"
+            ],
+            "bureauCode": ["012:20"],
+            "programCode": ["012:031"]
+        },
+        {
+            "@type": "dcat:Dataset",
+            "title": "International Labor Comparisons (ILC)",
+            "description": "The International Labor Comparisons (ILC) program provides international comparisons of hourly compensation costs; productivity and unit labor costs; labor force, employment and consumer prices. The comparisons relate primarily to the major industrial countries, but other countries are included in certain measures. The ILC program adjusts data to a common conceptual framework because direct comparisons of national statistics across countries can be misleading due to differing concepts and methods. ILC data are used to assess U.S. economic and labor market performance relative to that of other countries and to evaluate the competitive position of the United States in increasingly global markets. \r\n\r\nThe ILC program was eliminated in 2013 under sequestration. For more information and data visit: https://www.bls.gov/ilc/",
+            "modified": "2019",
+            "accessLevel": "public",
+            "identifier": "DOL-BLS-199",
+            "issued": "2012-12-19",
+            "landingPage": "https://www.bls.gov/ilc/",
+            "license": "https://creativecommons.org/publicdomain/zero/1.0/",
+            "publisher": {
+                "@type": "org:Organization",
+                "name": "Bureau of Labor Statistics",
+                "subOrganizationOf": {
+                    "@type": "org:Organization",
+                    "name": "U.S. Department of Labor"
+                }
+            },
+            "contactPoint": {
+                "@type": "vcard:Contact",
+                "fn": "Amrit Kohli",
+                "hasEmail": "mailto:kohli.amrit@dol.gov"
+            },
+            "distribution": [
+                {
+                    "@type": "dcat:Distribution",
+                    "accessURL": "https://www.bls.gov/fls/data.htm",
+                    "title": "ILC Data page",
+                    "description": "ILC Data query tool"
+                }
+            ],
+            "keyword": [
+                "International GDP",
+                "International compensation costs",
+                "International consumer price indexes",
+                "International labor force",
+                "International productivity",
+                "International statistics",
+                "foreign labor statistics"
+            ],
+            "bureauCode": ["012:20"],
+            "programCode": ["012:031"]
+        },
+        {
+            "@type": "dcat:Dataset",
+            "title": "Green Goods and Services",
+            "description": "The Green Goods and Services (GGS) program provides national and State estimates of GGS employment levels and rates by North American Industrial Classification System (NAICS) industry code and ownership. GGS employment is employment associated with producing green goods or providing green services. GGS employment level and rate estimates are also published at the State level for private, local government, State government, and federal government ownerships at the NAICS industry sector level.\r\nGGS was eliminated in 2013 as part of sequestration. \r\n\r\nFor more information visit: https://www.bls.gov/ggs/",
+            "modified": "2019",
+            "accessLevel": "public",
+            "identifier": "DOL-BLS-3530-01",
+            "describedBy": "http://download.bls.gov/pub/time.series/gg/gg.txt",
+            "landingPage": "https://www.bls.gov/ggs/",
+            "license": "https://creativecommons.org/publicdomain/zero/1.0/",
+            "publisher": {
+                "@type": "org:Organization",
+                "name": "Bureau of Labor Statistics",
+                "subOrganizationOf": {
+                    "@type": "org:Organization",
+                    "name": "U.S. Department of Labor"
+                }
+            },
+            "contactPoint": {
+                "@type": "vcard:Contact",
+                "fn": "Amrit Kohli",
+                "hasEmail": "mailto:kohli.amrit@bls.gov"
+            },
+            "distribution": [
+                {
+                    "@type": "dcat:Distribution",
+                    "accessURL": "https://www.bls.gov/ggs/data.htm",
+                    "title": "GGS data page",
+                    "description": "GGS data resources"
+                }
+            ],
+            "keyword": [
+                "employment",
+                "green",
+                "state"
+            ],
+            "bureauCode": ["012:20"],
+            "programCode": ["012:031"]
+        },
+        {
+            "@type": "dcat:Dataset",
+            "title": "Import/Export Price Indices",
+            "description": "The International Price Program (IPP) produces Import/Export Price Indexes (MXP) containing data on changes in the prices of nonmilitary goods and services traded between the U.S. and the rest of the world.\r\n\r\nFor more information and data visit: https://www.bls.gov/mxp/",
+            "modified": "2019",
+            "accessLevel": "public",
+            "identifier": "DOL-BLS-200",
+            "issued": "2019-12-13",
+            "landingPage": "https://www.bls.gov/mxp/",
+            "license": "https://creativecommons.org/publicdomain/zero/1.0/",
+            "publisher": {
+                "@type": "org:Organization",
+                "name": "Bureau of Labor Statistics",
+                "subOrganizationOf": {
+                    "@type": "org:Organization",
+                    "name": "U.S. Department of Labor"
+                }
+            },
+            "contactPoint": {
+                "@type": "vcard:Contact",
+                "fn": "Amrit Kohli",
+                "hasEmail": "mailto:kohli.amrit@dol.gov"
+            },
+            "distribution": [
+                {
+                    "@type": "dcat:Distribution",
+                    "accessURL": "https://www.bls.gov/mxp/data.htm",
+                    "title": "Import Export Data page",
+                    "description": "Import Export Data query tools"
+                },
+                {
+                    "@type": "dcat:Distribution",
+                    "accessURL": "https://download.bls.gov/pub/time.series/ei/",
+                    "format": "csv",
+                    "title": "IPP Import Export data files",
+                    "description": "IPP Import Export Price Index data in tab separated files"
+                }
+            ],
+            "keyword": [
+                "Export price indexes",
+                "export",
+                "import",
+                "import price indices",
+                "inflation",
+                "international",
+                "international prices"
+            ],
+            "bureauCode": ["012:20"],
+            "programCode": ["012:032"]
+        },
+        {
+            "@type": "dcat:Dataset",
+            "title": "Industry Productivity Costs",
+            "description": "The Industry Productivity program produces annual measures of output per hour, unit labor costs, and related series for a select group of U.S. industries.\r\nIndexes and annual percent changes are available by industry for labor productivity (output per hour), output per person, real output, the implicit price deflator for output, labor hours, employment, labor compensation, and unit labor costs. Level data underlying the productivity and cost measures - including nominal value of production, labor compensation, total annual hours, and total annual employment - also are available.\r\n\r\nFor more information and data visit: https://www.bls.gov/lpc/",
+            "modified": "2019",
+            "accessLevel": "public",
+            "identifier": "DOL-BLS-3010-03",
+            "describedBy": "http://download.bls.gov/pub/time.series/ip/ip.txt",
+            "issued": "2019-07-25",
+            "landingPage": "https://www.bls.gov/lpc/",
+            "license": "https://creativecommons.org/publicdomain/zero/1.0/",
+            "publisher": {
+                "@type": "org:Organization",
+                "name": "Bureau of Labor Statistics",
+                "subOrganizationOf": {
+                    "@type": "org:Organization",
+                    "name": "U.S. Department of Labor"
+                }
+            },
+            "contactPoint": {
+                "@type": "vcard:Contact",
+                "fn": "Amrit Kohli",
+                "hasEmail": "mailto:kohli.amrit@bls.gov"
+            },
+            "distribution": [
+                {
+                    "@type": "dcat:Distribution",
+                    "accessURL": "https://download.bls.gov/pub/time.series/ip/",
+                    "title": "IP data",
+                    "description": "IP Data in tab separated files"
+                }
+            ],
+            "keyword": [
+                "compensation",
+                "hours of work",
+                "industry productivity",
+                "pay",
+                "productivity",
+                "unit labor cost"
+            ],
+            "bureauCode": ["012:20"],
+            "programCode": ["012:034"]
+        },
+        {
+            "@type": "dcat:Dataset",
+            "title": "Survey of Occupational Injuries and Illnesses (SOII)",
+            "description": "The Survey of Occupational Injuries and Illnesses (SOII) is a Federal/State cooperative program that publishes estimates on nonfatal occupational injuries and illnesses. Each year, approximately 200,000 employers report for establishments in private industry and the public sector (state and local government). In-scope cases include work-related injuries or illnesses to workers who require medical care beyond first aid. See the Occupational Safety and Health Administration (OSHA) for the entire recordkeeping guidelines. The SOII excludes all work\u2013related fatalities as well as nonfatal work injuries and illnesses to the self\u2013employed; to workers on farms with 10 or fewer employees; to private household workers; to volunteers; and to federal government workers. More information and details about the data provided can be found at https://www.bls.gov/iif/soii-overview.htm",
+            "modified": "2019",
+            "accessLevel": "public",
+            "identifier": "DOL-BLS-19",
+            "issued": "2019-11-07",
+            "landingPage": "https://www.bls.gov/iif/soii-overview.htm",
+            "license": "https://creativecommons.org/publicdomain/zero/1.0/",
+            "publisher": {
+                "@type": "org:Organization",
+                "name": "Bureau of Labor Statistics",
+                "subOrganizationOf": {
+                    "@type": "org:Organization",
+                    "name": "U.S. Department of Labor"
+                }
+            },
+            "contactPoint": {
+                "@type": "vcard:Contact",
+                "fn": "Amrit Kohli",
+                "hasEmail": "mailto:kohli.amrit@dol.gov"
+            },
+            "distribution": [
+                {
+                    "@type": "dcat:Distribution",
+                    "accessURL": "https://www.bls.gov/iif/soii-data.htm",
+                    "title": "SOII data home",
+                    "description": "SOII data resources"
+                },
+                {
+                    "@type": "dcat:Distribution",
+                    "accessURL": "https://www.bls.gov/iif/data.htm",
+                    "title": "SOII and Fatalities data tools",
+                    "description": "SOII and Fatalities data query tools"
+                }
+            ],
+            "keyword": [
+                "causes of injuries",
+                "health",
+                "illnesses",
+                "industry",
+                "injuries",
+                "occupation",
+                "safety"
+            ],
+            "bureauCode": ["012:20"],
+            "programCode": ["012:033"]
+        },
+        {
+            "@type": "dcat:Dataset",
+            "title": "Census of Fatal Occupational Injuries (CFOI)",
+            "description": "The Bureau of Labor Statistics (BLS) Census of Fatal Occupational Injuries (CFOI) produces comprehensive, accurate, and timely counts of fatal work injuries. CFOI is a Federal-State cooperative program that has been implemented in all 50 States and the District of Columbia since 1992. To compile counts that are as complete as possible, the census uses multiple sources to identify, verify, and profile fatal worker injuries. Information about each workplace fatal injury\u2014occupation and other worker characteristics, equipment involved, and circumstances of the event\u2014is obtained by cross-referencing the source records, such as death certificates, workers' compensation reports, and Federal and State agency administrative reports. To ensure that fatal injuries are work-related, cases are substantiated with two or more independent source documents, or a source document and a follow-up questionnaire. Data compiled by the CFOI program are issued annually for the preceding calendar year.\r\n\r\nMore information and details about the data provided can be found at https://www.bls.gov/iif/oshfat1.htm",
+            "modified": "2019",
+            "accessLevel": "public",
+            "identifier": "DOL-BLS-20",
+            "issued": "2019-12-17",
+            "landingPage": "https://www.bls.gov/iif/oshfat1.htm",
+            "license": "https://creativecommons.org/publicdomain/zero/1.0/",
+            "publisher": {
+                "@type": "org:Organization",
+                "name": "Bureau of Labor Statistics",
+                "subOrganizationOf": {
+                    "@type": "org:Organization",
+                    "name": "U.S. Department of Labor"
+                }
+            },
+            "contactPoint": {
+                "@type": "vcard:Contact",
+                "fn": "Amrit Kohli",
+                "hasEmail": "mailto:kohli.amrit@dol.gov"
+            },
+            "distribution": [
+                {
+                    "@type": "dcat:Distribution",
+                    "accessURL": "https://www.bls.gov/iif/oshcfoi1.htm",
+                    "title": "CFOI data tables",
+                    "description": "CFOI data sources"
+                },
+                {
+                    "@type": "dcat:Distribution",
+                    "accessURL": "https://www.bls.gov/iif/data.htm",
+                    "title": "CFOI data query tools",
+                    "description": "CFOI data query tools"
+                }
+            ],
+            "keyword": [
+                "causes of death",
+                "death",
+                "fatalities",
+                "health",
+                "industry",
+                "occupational injuries",
+                "safety"
+            ],
+            "bureauCode": ["012:20"],
+            "programCode": ["012:032"]
+        },
+        {
+            "@type": "dcat:Dataset",
+            "title": "Job Openings and Labor Turnover Survey",
+            "description": "The Job Openings and Labor Turnover Survey (JOLTS) program provides national estimates of rates and levels for job openings, hires, and total separations. Total separations are further broken out into quits, layoffs and discharges, and other separations. Unadjusted counts and rates of all data elements are published by supersector and select sector based on the North American Industry Classification System (NAICS). The number of unfilled jobs\u2014used to calculate the job openings rate\u2014is an important measure of the unmet demand for labor. With that statistic, it is possible to paint a more complete picture of the U.S. labor market than by looking solely at the unemployment rate, a measure of the excess supply of labor. Information on labor turnover is valuable in the proper analysis and interpretation of labor market developments and as a complement to the unemployment rate. \r\n\r\nFor more information and data visit: https://www.bls.gov/jlt/",
+            "modified": "2019",
+            "accessLevel": "public",
+            "identifier": "DOL-BLS-3050-01",
+            "issued": "2019-12-17",
+            "landingPage": "https://www.bls.gov/jlt//",
+            "license": "https://creativecommons.org/publicdomain/zero/1.0/",
+            "publisher": {
+                "@type": "org:Organization",
+                "name": "Bureau of Labor Statistics",
+                "subOrganizationOf": {
+                    "@type": "org:Organization",
+                    "name": "U.S. Department of Labor"
+                }
+            },
+            "contactPoint": {
+                "@type": "vcard:Contact",
+                "fn": "Amrit Kohli",
+                "hasEmail": "mailto:kohli.amrit@bls.gov"
+            },
+            "distribution": [
+                {
+                    "@type": "dcat:Distribution",
+                    "accessURL": "https://www.bls.gov/jlt/data.htm",
+                    "title": "JOLTS data page",
+                    "description": "JOLTS data resources",
+                    "describedBy": "https://download.bls.gov/pub/time.series/jt/jt.txt"
+                }
+            ],
+            "keyword": [
+                "employment",
+                "hires",
+                "separations",
+                "turnover",
+                "unemployment"
+            ],
+            "bureauCode": ["012:20"],
+            "programCode": ["012:031"]
+        },
+        {
+            "@type": "dcat:Dataset",
+            "title": "Local Area Unemployment Statistics",
+            "description": "The Local Area Unemployment Statistics (LAUS) program is a federal-state cooperative effort which produces monthly estimates of produces monthly and annual employment, unemployment, and labor force data for approximately 7,000 areas including Census regions and divisions, States, counties, metropolitan areas, and many cities. \r\n\r\nFor more information and data visit: https://www.bls.gov/lau/",
+            "modified": "2019",
+            "accessLevel": "public",
+            "identifier": "DOL-BLS-3060-01",
+            "describedBy": "http://download.bls.gov/pub/time.series/la/la.txt",
+            "issued": "2019-12-20",
+            "landingPage": "https://www.bls.gov/lau/",
+            "license": "https://creativecommons.org/publicdomain/zero/1.0/",
+            "publisher": {
+                "@type": "org:Organization",
+                "name": "Bureau of Labor Statistics",
+                "subOrganizationOf": {
+                    "@type": "org:Organization",
+                    "name": "U.S. Department of Labor"
+                }
+            },
+            "contactPoint": {
+                "@type": "vcard:Contact",
+                "fn": "Amrit Kohli",
+                "hasEmail": "mailto:kohli.amrit@bls.gov"
+            },
+            "distribution": [
+                {
+                    "@type": "dcat:Distribution",
+                    "accessURL": "https://www.bls.gov/lau/data.htm",
+                    "title": "LAUS data home page",
+                    "description": "LAUS data resources"
+                }
+            ],
+            "keyword": [
+                "city",
+                "county",
+                "employment",
+                "metropolitan",
+                "state",
+                "unemployment"
+            ],
+            "bureauCode": ["012:20"],
+            "programCode": ["012:031"]
+        },
+        {
+            "@type": "dcat:Dataset",
+            "title": "Major Sector Multifactor Productivity",
+            "description": "Multifactor productivity (MFP), also known as total factor productivity (TFP), is a measure of economic performance that compares the amount of goods and services produced (output) to the amount of combined inputs used to produce those goods and services. Inputs can include labor, capital, energy, materials, and purchased services. \r\n\r\nFor more information and data visit: https://www.bls.gov/mfp/",
+            "modified": "2019",
+            "accessLevel": "public",
+            "identifier": "DOL-BLS-3010-02",
+            "describedBy": "http://download.bls.gov/pub/time.series/mp/mp.txt",
+            "issued": "2019-03-20",
+            "landingPage": "https://www.bls.gov/mfp/",
+            "license": "https://creativecommons.org/publicdomain/zero/1.0/",
+            "publisher": {
+                "@type": "org:Organization",
+                "name": "Bureau of Labor Statistics",
+                "subOrganizationOf": {
+                    "@type": "org:Organization",
+                    "name": "U.S. Department of Labor"
+                }
+            },
+            "contactPoint": {
+                "@type": "vcard:Contact",
+                "fn": "Amrit Kohli",
+                "hasEmail": "mailto:kohli.amrit@bls.gov"
+            },
+            "distribution": [
+                {
+                    "@type": "dcat:Distribution",
+                    "accessURL": "https://www.bls.gov/mfp/data.htm",
+                    "title": "MFP data page",
+                    "description": "MFP Data resources"
+                },
+                {
+                    "@type": "dcat:Distribution",
+                    "accessURL": "https://www.bls.gov/lpc/tables_by_sector_and_industry.htm",
+                    "title": "MFP data sources in tables and files",
+                    "description": "MFP data in CSV files"
+                }
+            ],
+            "keyword": [
+                "compensation",
+                "hours of work",
+                "labor costs",
+                "pay",
+                "productivity",
+                "unit labor cost"
+            ],
+            "bureauCode": ["012:20"],
+            "programCode": ["012:034"]
+        },
+        {
+            "@type": "dcat:Dataset",
+            "title": "Mass Layoff Statistics",
+            "description": "The Mass Layoff Statistics (MLS) program collects reports on mass layoff actions that result in workers being separated from their jobs. Monthly mass layoff numbers are from establishments which have at least 50 initial claims for unemployment insurance (UI) filed against them during a 5-week period. Extended mass layoff numbers (issued quarterly) are from a subset of such establishments\u2014where private sector nonfarm employers indicate that 50 or more workers were separated from their jobs for at least 31 days.\r\n\r\nMLS was eliminated in 2013 under sequestration. For more information and data visit: https://www.bls.gov/mls/",
+            "modified": "2019",
+            "accessLevel": "public",
+            "identifier": "DOL-BLS-3070-01",
+            "describedBy": "http://download.bls.gov/pub/time.series/ml/ml.txt",
+            "issued": "2013-06-13",
+            "landingPage": "https://www.bls.gov/mls/",
+            "license": "https://creativecommons.org/publicdomain/zero/1.0/",
+            "publisher": {
+                "@type": "org:Organization",
+                "name": "Bureau of Labor Statistics",
+                "subOrganizationOf": {
+                    "@type": "org:Organization",
+                    "name": "U.S. Department of Labor"
+                }
+            },
+            "contactPoint": {
+                "@type": "vcard:Contact",
+                "fn": "Amrit Kohli",
+                "hasEmail": "mailto:kohli.amrit@bls.gov"
+            },
+            "distribution": [
+                {
+                    "@type": "dcat:Distribution",
+                    "accessURL": "https://www.bls.gov/mls/data.htm",
+                    "title": "MLS Data page",
+                    "description": "MLS Data resources"
+                }
+            ],
+            "keyword": [
+                "layoff statistics",
+                "mass layoffs",
+                "separation",
+                "unemployment",
+                "unemployment insurance"
+            ],
+            "bureauCode": ["012:20"],
+            "programCode": ["012:031"]
+        },
+        {
+            "@type": "dcat:Dataset",
+            "title": "National Compensation Survey - Modeled Wage Estimates",
+            "description": "The National Compensation Survey (NCS) program produces information on wages by occupation for many metropolitan areas.The Modeled Wage Estimates (MWE) provide annual estimates of average hourly wages for occupations by selected job characteristics and within geographical location. The job characteristics include bargaining status (union and nonunion), part- and full-time work status, incentive- and time-based pay, and work levels by occupation. The modeled wage estimates are produced using a statistical procedure that combines survey data collected by the National Compensation Survey (NCS) and the Occupational Employment Statistics (OES) programs. Borrowing from the strengths of the NCS, information on job characteristics and work levels, and from the OES, the occupational and geographic detail, the modeled wage estimates provide more detail on occupational average hourly wages than either program is able to provide separately.\r\n\r\nWage rates for different work levels within occupation groups also are published. Data are available for private industry, State and local governments, full-time workers, part-time workers, and other workforce characteristics.",
+            "modified": "2019",
+            "accessLevel": "public",
+            "identifier": "DOL-BLS-1075-01",
+            "issued": "2019-08-22",
+            "landingPage": "https://www.bls.gov/mwe/",
+            "license": "https://creativecommons.org/publicdomain/zero/1.0/",
+            "publisher": {
+                "@type": "org:Organization",
+                "name": "Bureau of Labor Statistics",
+                "subOrganizationOf": {
+                    "@type": "org:Organization",
+                    "name": "U.S. Department of Labor"
+                }
+            },
+            "contactPoint": {
+                "@type": "vcard:Contact",
+                "fn": "Amrit Kohli",
+                "hasEmail": "mailto:kohli.amrit@bls.gov"
+            },
+            "distribution": [
+                {
+                    "@type": "dcat:Distribution",
+                    "accessURL": "https://www.bls.gov/mwe/data.htm",
+                    "title": "MWE data query tool",
+                    "description": "MWE data resource"
+                }
+            ],
+            "keyword": [
+                "Benefits",
+                "Compensation",
+                "Jobs",
+                "Pay",
+                "Wages"
+            ],
+            "bureauCode": ["012:20"],
+            "programCode": ["012:033"]
+        },
+        {
+            "@type": "dcat:Dataset",
+            "title": "National Compensation Survey",
+            "description": "The National Compensation Survey (NCS) provides comprehensive measures of occupational wages; employment cost trends, and benefit incidence and detailed plan provisions. Detailed occupational earnings are available for metropolitan and non-metropolitan areas, broad geographic regions, and on a national basis. The index component of the NCS (ECI) measures changes in labor costs. Average hourly employer cost for employee compensation is presented in the ECEC.",
+            "modified": "2019",
+            "accessLevel": "public",
+            "identifier": "DOL-BLS-206",
+            "issued": "2009-06-19",
+            "landingPage": "https://www.bls.gov/ncs/ect/",
+            "license": "https://creativecommons.org/publicdomain/zero/1.0/",
+            "publisher": {
+                "@type": "org:Organization",
+                "name": "Bureau of Labor Statisticis",
+                "subOrganizationOf": {
+                    "@type": "org:Organization",
+                    "name": "U.S. Department of Labor"
+                }
+            },
+            "contactPoint": {
+                "@type": "vcard:Contact",
+                "fn": "Amrit Kohli",
+                "hasEmail": "mailto:kohli.amrit@dol.gov"
+            },
+            "distribution": [
+                {
+                    "@type": "dcat:Distribution",
+                    "accessURL": "http://download.bls.gov/pub/time.series/cm",
+                    "format": "csv",
+                    "title": "ECEC data",
+                    "description": "ECEC data in tab separated files",
+                    "describedBy": "http://download.bls.gov/pub/time.series/cm/cm.txt"
+                },
+                {
+                    "@type": "dcat:Distribution",
+                    "accessURL": "https://download.bls.gov/pub/time.series/ci/",
+                    "format": "csv",
+                    "title": "ECI data",
+                    "description": "ECI data in tab separated files",
+                    "describedBy": "http://download.bls.gov/pub/time.series/ci/ci.txt"
+                }
+            ],
+            "keyword": [
+                "Compensation Statistics",
+                "EBS",
+                "ECEC",
+                "ECI",
+                "benefits",
+                "employment cost"
+            ],
+            "bureauCode": ["012:20"],
+            "programCode": ["012:033"]
+        },
+        {
+            "@type": "dcat:Dataset",
+            "title": "National Longitudinal Surveys",
+            "description": "The National Longitudinal Surveys (NLS) are a set of surveys designed to gather information at multiple points in time on the labor market activities and other significant life events of several groups of men and women. For more than 4 decades, NLS data have served as an important tool for economists, sociologists, and other researchers.\r\n\r\nFor more information and data visit: https://www.bls.gov/nls/",
+            "modified": "2019",
+            "accessLevel": "public",
+            "identifier": "DOL-BLS-207",
+            "issued": "2019-08-22",
+            "landingPage": "https://www.bls.gov/nls/",
+            "license": "https://creativecommons.org/publicdomain/zero/1.0/",
+            "publisher": {
+                "@type": "org:Organization",
+                "name": "Bureau of Labor Statistics",
+                "subOrganizationOf": {
+                    "@type": "org:Organization",
+                    "name": "U.S. Department of Labor"
+                }
+            },
+            "contactPoint": {
+                "@type": "vcard:Contact",
+                "fn": "Amrit Kohli",
+                "hasEmail": "mailto:kohli.amrit@dol.gov"
+            },
+            "distribution": [
+                {
+                    "@type": "dcat:Distribution",
+                    "accessURL": "https://www.bls.gov/nls/tables.htm",
+                    "title": "NLS data",
+                    "description": "NLS data resources"
+                }
+            ],
+            "keyword": [
+                "Longitudinal data",
+                "National Longitudinal Surveys"
+            ],
+            "bureauCode": ["012:20"],
+            "programCode": ["012:035"]
+        },
+        {
+            "@type": "dcat:Dataset",
+            "title": "Occupational Employment and Wage Statistics (OES)",
+            "description": "The Occupational Employment and Wage Statistics (OES) program conducts a semi-annual survey to produce estimates of employment and wages for specific occupations. The OES program collects data on wage and salary workers in nonfarm establishments in order to produce employment and wage estimates for about 800 occupations. Data from self-employed persons are not collected and are not included in the estimates. The OES program produces these occupational estimates by geographic area and by industry. Estimates based on geographic areas are available at the National, State, Metropolitan, and Nonmetropolitan Area levels. The Bureau of Labor Statistics produces occupational employment and wage estimates for over 450 industry classifications at the national level. The industry classifications correspond to the sector, 3-, 4-, and 5-digit North American Industry Classification System (NAICS) industrial groups. \n\nMore information and details about the data provided can be found at http://www.bls.gov/oes",
+            "modified": "2022-03-18T19:02:30.923Z",
+            "accessLevel": "public",
+            "identifier": "DOL-BLS-150",
+            "dataQuality": true,
+            "issued": "2019-03-29",
+            "landingPage": "http://www.bls.gov/oes/",
+            "license": "https://creativecommons.org/publicdomain/zero/1.0/",
+            "rights": "true",
+            "publisher": {
+                "@type": "org:Organization",
+                "name": "Bureau of Labor Statistics",
+                "subOrganizationOf": {
+                    "@type": "org:Organization",
+                    "name": "Bureau of Labor Statistics"
+                }
+            },
+            "contactPoint": {
+                "@type": "vcard:Contact",
+                "fn": "Amrit Kohli",
+                "hasEmail": "mailto:kohli.amrit@dol.gov"
+            },
+            "distribution": [
+                {
+                    "@type": "dcat:Distribution",
+                    "accessURL": "http://www.bls.gov/oes/data.htm",
+                    "title": "OES Data Home page",
+                    "description": "OES data resources"
+                },
+                {"@type": "dcat:Distribution"}
+            ],
+            "keyword": [
+                "employment",
+                "industry",
+                "metropolitan area",
+                "occupation",
+                "pay",
+                "salary",
+                "wages"
+            ],
+            "bureauCode": ["015:11"],
+            "programCode": ["015:001"],
+            "language": ["en-US"]
+        },
+        {
+            "@type": "dcat:Dataset",
+            "title": "Occupational Outlook Handbook",
+            "description": "The Occupational Outlook Handbook (OOH) is a nationally recognized source of career information, designed to provide valuable assistance to individuals making decisions about their future work lives. The Handbook is revised every two years. The OOH offers information on the hundreds of occupations that provide the majority of jobs in the United States. Each occupational profile describes the typical duties performed by the occupation, the work environment of that occupation, the typical education and training needed to enter the occupation, the median pay for workers in the occupation, and the job outlook over the coming decade for that occupation. \r\n\r\nFor information on occupations, please visit: https://www.bls.gov/ooh/",
+            "modified": "2019",
+            "accessLevel": "public",
+            "identifier": "DOL-BLS-208",
+            "issued": "2019-09-04",
+            "landingPage": "https://www.bls.gov/ooh/",
+            "license": "https://creativecommons.org/publicdomain/zero/1.0/",
+            "publisher": {
+                "@type": "org:Organization",
+                "name": "Bureau of Labor Statistics",
+                "subOrganizationOf": {
+                    "@type": "org:Organization",
+                    "name": "U.S. Department of Labor"
+                }
+            },
+            "contactPoint": {
+                "@type": "vcard:Contact",
+                "fn": "Amrit Kohli",
+                "hasEmail": "mailto:kohli.amrit@dol.gov"
+            },
+            "distribution": [
+                {
+                    "@type": "dcat:Distribution",
+                    "accessURL": "https://www.bls.gov/ooh/a-z-index.htm",
+                    "format": "html",
+                    "title": "Occupational Outlook Handbook",
+                    "description": "A-Z index of OOH"
+                }
+            ],
+            "keyword": [
+                "Occupation growth rate",
+                "Occupation median pay",
+                "Occupational Outlook Handbook",
+                "Occupations",
+                "Occuptional Profiles",
+                "highest paying occupations",
+                "occupation projections"
+            ],
+            "bureauCode": ["012:20"],
+            "programCode": ["012:031"]
+        },
+        {
+            "@type": "dcat:Dataset",
+            "title": "Producer Price Index",
+            "description": "The Producer Price Index (PPI) is a family of indexes that measures the average change over time in selling prices received by domestic producers of goods and services. PPIs measure price change from the perspective of the seller. This contrasts with other measures, such as the Consumer Price Index (CPI), that measure price change from the purchaser's perspective. Sellers' and purchasers' prices may differ due to government subsidies, sales and excise taxes, and distribution costs.\r\n\r\nThere are three main PPI classification structures which draw from the same pool of price information provided to the BLS by cooperating company reporters:\r\n\r\n        Industry classification. A Producer Price Index for an industry is a measure of changes in prices received for the industry's output sold outside the industry (that is, its net output). The PPI publishes approximately 535 industry price indexes in combination with over 4,000 specific product line and product category sub-indexes, as well as, roughly 500 indexes for groupings of industries. North American Industry Classification System (NAICS) index codes provide comparability with a wide assortment of industry-based data for other economic programs, including productivity, production, employment, wages, and earnings.\r\n        Commodity classification. The commodity classification structure of the PPI organizes products and services by similarity or material composition, regardless of the industry classification of the producing establishment. This system is unique to the PPI and does not match any other standard coding structure. In all, PPI publishes more than 3,700 commodity price indexes for goods and about 800 for services (seasonally adjusted and not seasonally adjusted), organized by product, service, and end use.\r\n        Commodity-based Final Demand-Intermediate Demand (FD-ID) System. Commodity-based FD-ID price indexes regroup commodity indexes for goods, services, and construction at the subproduct class (six-digit) level, according to the type of buyer and the amount of physical processing or assembling the products have undergone. The PPI publishes over 600 FD-ID indexes (seasonally adjusted and not seasonally adjusted) measuring price change for goods, services, and construction sold to final demand and to intermediate demand. The FD-ID system replaced the PPI stage-of-processing (SOP) system as PPI's primary aggregation model with the release of data for January 2014. The FD-ID system expands coverage in its aggregate measures beyond that of the SOP system by incorporating indexes for services, construction, exports, and government purchases.\r\n\r\nFor more information, visit: https://www.bls.gov/ppi",
+            "modified": "2019",
+            "accessLevel": "public",
+            "identifier": "DOL-BLS-3535-03",
+            "issued": "2019-12-12",
+            "landingPage": "https://www.bls.gov/ppi",
+            "license": "https://creativecommons.org/publicdomain/zero/1.0/",
+            "publisher": {
+                "@type": "org:Organization",
+                "name": "Bureau of Labor Statistics",
+                "subOrganizationOf": {
+                    "@type": "org:Organization",
+                    "name": "U.S. Department of Labor"
+                }
+            },
+            "contactPoint": {
+                "@type": "vcard:Contact",
+                "fn": "Amrit Kohli",
+                "hasEmail": "mailto:kohli.amrit@bls.gov"
+            },
+            "distribution": [
+                {
+                    "@type": "dcat:Distribution",
+                    "accessURL": "http://download.bls.gov/pub/time.series/wp/",
+                    "format": "csv",
+                    "title": "PPI Commodity Data",
+                    "description": "PPI Commodity Data tab separated data files"
+                },
+                {
+                    "@type": "dcat:Distribution",
+                    "accessURL": "https://download.bls.gov/pub/time.series/pc/",
+                    "format": "csv",
+                    "title": "PPI Industry data",
+                    "description": "PPI industry tab separated data files"
+                },
+                {
+                    "@type": "dcat:Distribution",
+                    "accessURL": "https://www.bls.gov/ppi/data.htm",
+                    "title": "PPI Data home page",
+                    "description": "PPI Data query tools"
+                }
+            ],
+            "keyword": [
+                "Wholesale",
+                "inflation",
+                "prices"
+            ],
+            "bureauCode": ["012:20"],
+            "programCode": ["012:032"]
+        },
+        {
+            "@type": "dcat:Dataset",
+            "title": "Productivity and Costs",
+            "description": "Productivity and related cost measures are designed for use in economic analysis and public and private policy planning. The data are used to forecast and analyze changes in prices, wages, and technology. There are two primary types of productivity statistics:\r\n\r\nLabor productivity measures output per hour of labor.\r\nMultifactor productivity measures output per unit of combined inputs, which consist of labor and capital, and, in some cases, intermediate inputs such as fuel.",
+            "modified": "2019",
+            "accessLevel": "public",
+            "identifier": "DOL-BLS-71",
+            "issued": "2019-12-10",
+            "landingPage": "https://www.bls.gov/bls/productivity.htm",
+            "license": "https://creativecommons.org/publicdomain/zero/1.0/",
+            "publisher": {
+                "@type": "org:Organization",
+                "name": "Bureau of Labor Statistics",
+                "subOrganizationOf": {
+                    "@type": "org:Organization",
+                    "name": "U.S. Department of Labor"
+                }
+            },
+            "contactPoint": {
+                "@type": "vcard:Contact",
+                "fn": "Amrit Kohli",
+                "hasEmail": "mailto:kohli.amrit@dol.gov"
+            },
+            "distribution": [
+                {
+                    "@type": "dcat:Distribution",
+                    "accessURL": "https://www.bls.gov/lpc/data.htm",
+                    "title": "Productivity data page",
+                    "description": "Productivity data resources for labor and industry productivity"
+                }
+            ],
+            "keyword": [
+                "capital",
+                "capital consumption",
+                "industry productivity",
+                "labor productivity",
+                "major sector productivity",
+                "multifactor productivity",
+                "productivity",
+                "unit labor costs"
+            ],
+            "bureauCode": ["012:20"],
+            "programCode": ["012:034"]
+        },
+        {
+            "@type": "dcat:Dataset",
+            "title": "Quarterly Census Employment and Wage (QCEW)",
+            "description": "The Quarterly Census of Employment and Wages (QCEW) program publishes a quarterly count of employment and wages reported by employers covering 98 percent of U.S. jobs, available at the county, MSA, state and national levels by industry.\r\n\r\nMore information and details about the data provided can be found at http://www.bls.gov/cew",
+            "modified": "2019",
+            "accessLevel": "public",
+            "identifier": "DOL-BLS-135",
+            "issued": "2019-12-04",
+            "landingPage": "http://www.bls.gov/cew",
+            "license": "https://creativecommons.org/publicdomain/zero/1.0/",
+            "publisher": {
+                "@type": "org:Organization",
+                "name": "Bureau of Labor Statistics",
+                "subOrganizationOf": {
+                    "@type": "org:Organization",
+                    "name": "U.S. Department of Labor"
+                }
+            },
+            "accrualPeriodicity": "R/P3M",
+            "contactPoint": {
+                "@type": "vcard:Contact",
+                "fn": "Amrit Kohli",
+                "hasEmail": "mailto:kohli.amrit@dol.gov"
+            },
+            "distribution": [
+                {
+                    "@type": "dcat:Distribution",
+                    "accessURL": "http://www.bls.gov/cew/data",
+                    "title": "CEW Data home",
+                    "description": "QCEW data sources"
+                }
+            ],
+            "keyword": [
+                "Employment",
+                "counties",
+                "industry",
+                "msa",
+                "states",
+                "wages"
+            ],
+            "bureauCode": ["012:20"],
+            "programCode": ["012:033"]
+        },
+        {
+            "@type": "dcat:Dataset",
+            "title": "Standard Occupational Classification",
+            "description": "The 2018 Standard Occupational Classification (SOC) system is a federal statistical standard used by federal agencies to classify workers into occupational categories for the purpose of collecting, calculating, or disseminating data. All workers are classified into one of 867 detailed occupations according to their occupational definition. To facilitate classification, detailed occupations are combined to form 459 broad occupations, 98 minor groups, and 23 major groups. Detailed occupations in the SOC with similar job duties, and in some cases skills, education, and/or training, are grouped together. \r\n\r\nFor additional information visit: https://www.bls.gov/soc/",
+            "modified": "2009-06-19",
+            "accessLevel": "public",
+            "identifier": "DOL-BLS-217",
+            "issued": "2009-06-19",
+            "landingPage": "https://www.bls.gov/soc/",
+            "license": "https://creativecommons.org/publicdomain/zero/1.0/",
+            "publisher": {
+                "@type": "org:Organization",
+                "name": "Bureau of Labor Statistics",
+                "subOrganizationOf": {
+                    "@type": "org:Organization",
+                    "name": "U.S. Department of Labor"
+                }
+            },
+            "contactPoint": {
+                "@type": "vcard:Contact",
+                "fn": "Amrit Kohli",
+                "hasEmail": "mailto:kohli.amrit@dol.gov"
+            },
+            "distribution": [
+                {
+                    "@type": "dcat:Distribution",
+                    "accessURL": "https://www.bls.gov/soc/2018/home.htm",
+                    "title": "2018 SOC",
+                    "description": "2018 Standard Occupational Classification System"
+                }
+            ],
+            "keyword": [
+                "Occupational classification",
+                "Standard Occupational Classification SOC",
+                "occupations"
+            ],
+            "bureauCode": ["012:20"],
+            "programCode": ["012:031"]
+        },
+        {
+            "@type": "dcat:Dataset",
+            "title": "Work Stoppages",
+            "description": "The Work Stoppages program provides monthly and annual data and analysis of major work stoppages involving 1,000 or more workers lasting one full shift or longer. The monthly and annual data show the establishment and union(s) involved in the work stoppage along with the location, the number of workers and the days of idleness. The monthly data list all work stoppages involving 1,000 or more workers that occurred during the full calendar month for each month of the year. The annualized data provide statistics, analysis and details of each work stoppage of 1,000 or more workers that occurred during the year. The work stoppages data are gathered from public news sources, such as newspapers and the Internet. The BLS does not distinguish between strikes and lock-outs in the data; both are included in the term \"work stoppages\".\r\n\r\nFor more information and data visit: https://www.bls.gov/wsp/",
+            "modified": "2019",
+            "accessLevel": "public",
+            "identifier": "DOL-BLS-219",
+            "issued": "2019-02-08",
+            "landingPage": "https://www.bls.gov/wsp/",
+            "license": "https://creativecommons.org/publicdomain/zero/1.0/",
+            "publisher": {
+                "@type": "org:Organization",
+                "name": "Bureau of Labor Statistics",
+                "subOrganizationOf": {
+                    "@type": "org:Organization",
+                    "name": "U.S. Department of Labor"
+                }
+            },
+            "contactPoint": {
+                "@type": "vcard:Contact",
+                "fn": "Amrit Kohli",
+                "hasEmail": "mailto:kohli.amrit@dol.gov"
+            },
+            "distribution": [
+                {
+                    "@type": "dcat:Distribution",
+                    "accessURL": "https://www.bls.gov/wsp/data.htm",
+                    "title": "Work Stoppages data",
+                    "description": "Work Stoppages data resources",
+                    "describedBy": "https://download.bls.gov/pub/time.series/ws/ws.txt"
+                }
+            ],
+            "keyword": [
+                "Labor dispute",
+                "Labor management dispute",
+                "Lockout",
+                "Slowdown",
+                "Strike",
+                "Work stoppages"
+            ],
+            "bureauCode": ["012:20"],
+            "programCode": ["012:031"]
+        }
+    ]
+}
